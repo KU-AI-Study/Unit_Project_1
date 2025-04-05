@@ -1,4 +1,4 @@
-# PyTorch Template Project
+# Deep Learning Training Pipeline based on PyTorch
 PyTorch deep learning project made easy.
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
