@@ -18,7 +18,6 @@ PyTorch deep learning project made easy.
 
 ## TODOs
 
-- [ ] Change Config file '.json' to '.yaml'
 - [ ] Change Debugging tool 'tensorboard' to 'mlflow'
 - [ ] model code modularization
 
@@ -40,10 +39,10 @@ PyTorch deep learning project made easy.
 ## Usage
 
 ### Using config files
-Modify the configurations in `.json` config files, then run:
+Modify the configurations in `.yaml` config files, then run:
 
   ```
-  python train.py --config config.json
+  python train.py --config config.yaml
   ```
 
 ### Resuming from checkpoints
@@ -58,7 +57,7 @@ You can enable multi-GPU training by setting `n_gpu` argument of the config file
 If configured to use smaller number of gpu than available, first n devices will be used by default.
 Specify indices of available GPUs by cuda environmental variable.
   ```
-  python train.py --device 2,3 -c config.json
+  python train.py --device 2,3 -c config.yaml
   ```
   This is equivalent to
   ```
